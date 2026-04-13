@@ -60,7 +60,7 @@ document.querySelectorAll('section').forEach(section => {
 
 // Custom Cursor
 const cursor = document.createElement('div');
-cursor.classList.add('cursor-follower');
+//cursor.classList.add('cursor-follower');
 document.body.appendChild(cursor);
 
 document.addEventListener('mousemove', (e) => {
